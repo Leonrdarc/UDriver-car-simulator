@@ -15,38 +15,34 @@ const routesNearHome = [
 		origin: {latitude:11.021614, longitude:-74.862930},
 		destination: {latitude:10.998394, longitude:-74.840335}
 	},
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}'
-	// },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
-	// // {
-	// // 	origin: '',
-	// // 	destination: ''
-	// // },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
-	// {
-	// 	origin: {latitude:, longitude:},
-	// 	destination: {latitude:, longitude:}
-	// },
+	{
+		origin: {latitude:11.024208, longitude:-74.862172},
+		destination: {latitude:11.024208, longitude:-74.862172}
+	},
+	{
+		origin: {latitude:11.002798, longitude:-74.834767},
+		destination: {latitude:11.017626, longitude:-74.834654}, 
+	},
+	{
+		origin: {latitude:11.030157, longitude:-74.865513},
+		destination: {latitude:11.022175, longitude:-74.862459}, 
+	},
+	{
+		origin: {latitude:11.026392, longitude:-74.851206},
+		destination: {latitude:11.017389, longitude:-74.851997}, 
+	},
+	{
+		origin: {latitude:11.011236, longitude:-74.829642},
+		destination: {latitude:10.982348, longitude:-74.836056}, 
+	},
+	{
+		origin: {latitude:10.997809, longitude:-74.818023},
+		destination: {latitude:11.023119, longitude:-74.868201}
+	},
+	{
+		origin: {latitude:11.017490, longitude:-74.851746},
+		destination: {latitude:10.998331, longitude:-74.822704}
+	},
 ]
 
 exports.getSimulatorPolylines = getSimulatorPolylines
