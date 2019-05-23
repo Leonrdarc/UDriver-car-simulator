@@ -4,7 +4,7 @@ var fs = require('fs');
 var io = require('socket.io-client');
 const jsonwebtoken = require('jsonwebtoken')
 const jwt = jsonwebtoken.sign({ sub: 'simulador' }, 'ABRACADABRA')
-var socket = io.connect('http://localhost:3000', {reconnection: true, query: 'auth_token='+jwt});
+var socket = io.connect('http://udriver-api.herokuapp.com', {reconnection: true, query: 'auth_token='+jwt});
 
 var DirectionsAPI = require('../utils/DirectionsAPI')
 var GeoFireAPI = require('../utils/GeoFireAPI')
